@@ -1,0 +1,24 @@
+.d-flex {
+  display: flex;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 15px;
+}
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
