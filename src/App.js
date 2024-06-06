@@ -7,12 +7,14 @@ import "./App.css";
 import MusicPage from "./components/pages/MusicPage";
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
+import HooksExamples from "./components/LearnHooks/HooksExamples";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <Layout>
+        <HooksExamples />
         <Home />
       </Layout>
     ),
