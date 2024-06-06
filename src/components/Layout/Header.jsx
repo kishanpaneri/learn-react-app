@@ -14,6 +14,8 @@ const Header = () => {
             <NavItem link="/" label="Home" />
             <NavItem link="/about" label="About" />
             <NavItem link="/music" label="Music" />
+            <NavItem link="/login" label="Login" />
+            <NavItem link="/signup" label="Signup" />
           </ul>
         </nav>
       </div>
